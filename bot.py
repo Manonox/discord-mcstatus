@@ -1,14 +1,12 @@
 import argparse
 import asyncio
 from os import getenv as os_getenv
-from dotenv import load_dotenv
 import json
 from mcstatus import MinecraftServer as MCServer
 
 import discord
 from discord.ext import tasks
 
-load_dotenv()
 
 config = {}
 def save_config():
