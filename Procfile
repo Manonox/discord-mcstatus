@@ -1,1 +1,1 @@
-worker: py bot.py -ip manonox.com
+worker: python bot.py -ip manonox.com
